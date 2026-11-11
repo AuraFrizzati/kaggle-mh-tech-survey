@@ -1,45 +1,46 @@
-From: [https://www.kaggle.com/datasets/ketangangal/heart-disease-dataset-uci/data](https://www.kaggle.com/datasets/ketangangal/heart-disease-dataset-uci/data)
+## Columns description
 
-Age
-Sex : male   : 1
-       female : 0
-       
-chest pain type
--- Value 1: typical angina
--- Value 2: atypical angina
--- Value 3: non-anginal pain
--- Value 4: asymptomatic
+Diabetes_binary : you have diabetes (0,1)
 
-resting blood pressure (in mm Hg on admission to the hospital
+HighBP : Adults who have been told they have high blood pressure by a doctor, nurse, or other health professional (0,1)
 
-serum cholestoral in mg/dl
+HighChol : Have you EVER been told by a doctor, nurse or other health professional that your blood cholesterol is high? (0,1)
 
-(fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+CholCheck : Cholesterol check within past five years (0,1)
 
-resting electrocardiographic results
+BMI : Body Mass Index (BMI)
 
--- Value 0: normal
--- Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
--- Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
+Smoker : Have you smoked at least 100 cigarettes in your entire life? [Note: 5 packs = 100 cigarettes] (0,1)
 
-thalach: maximum heart rate achieved
+Stroke : (Ever told) you had a stroke. (0,1)
 
-exercise induced angina (1 = yes; 0 = no)
+HeartDiseaseorAttack : Respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI) (0,1)
 
-Angina is chest pain or discomfort caused when your heart muscle doesn't get enough oxygen-rich blood.
-It may feel like pressure or squeezing in your chest. 
+PhysActivity : Adults who reported doing physical activity or exercise during the past 30 days other than their regular job (0,1)
 
-oldpeak = ST depression induced by exercise relative to rest
+Fruits : Consume Fruit 1 or more times per day (0,1)
 
-slope: the slope of the peak exercise ST segment
+Veggies : Consume Vegetables 1 or more times per day (0,1)
 
- --Value 1: upsloping
--- Value 2: flat
--- Value 3: downsloping
+HvyAlcoholConsump : Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week)(0,1)
 
-vessels  colored by flourosopy : number of major vessels (0-3) colored by flourosopy
+AnyHealthcare : Do you have any kind of health care coverage, including health insurance, prepaid plans such as HMOs, or government plans such as Medicare, or Indian Health Service? (0,1)
 
-A blood disorder called thalassemia (3 = normal; 6 = fixed defect; 7 = reversable defect)
+NoDocbcCost : Was there a time in the past 12 months when you needed to see a doctor but could not because of cost? (0,1)
 
-Target : 0 No Heart disease
-               1 Heart disease
+GenHlth : Would you say that in general your health is: rate (1 ~ 5)
+
+MentHlth : Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good? (0 ~ 30)
+
+PhysHlth : Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good? (0 ~ 30)
+
+DiffWalk : Do you have serious difficulty walking or climbing stairs? (0,1)
+
+Sex : Indicate sex of respondent (0,1) (Female or Male)
+
+Age : Fourteen-level age category (1 ~ 14)
+
+Education : What is the highest grade or year of school you completed? (1 ~ 6)
+
+Income : Is your annual household income from all sources: (If respondent refuses at any income level, code "Refused.") (1 ~ 8)
+
